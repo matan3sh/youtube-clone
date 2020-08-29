@@ -1,0 +1,27 @@
+.searchVideosChannel {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.searchVideosChannel__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchVideosChannel__text > p {
+  color: #606060;
+  font-size: small !important;
+}
+
+.searchVideosChannel__logo {
+  height: 120px !important;
+  width: 120px !important;
+  margin: 10px 60px;
+}
+
+.searchVideosChannel__text > h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

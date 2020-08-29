@@ -21,3 +21,40 @@
   background-color: lightgray;
   margin: 10px 0;
 }
+
+.searchVideosItem {
+  display: flex;
+  margin-bottom: 30px;
+  max-width: 700px;
+}
+
+.searchVideosItem > img {
+  object-fit: contain;
+  width: 246px;
+  height: 138px;
+}
+
+.searchVideosItem__text {
+  margin-left: 14px;
+}
+
+.searchVideosItem__description {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #606060;
+}
+
+.searchVideosItem__headline {
+  font-size: 12px;
+  color: #606060;
+}
+
+.searchVideosItem__headline > span {
+  background-color: lightgray;
+  padding: 2px;
+}
+
+.searchVideosItem__headline > span > span {
+  font-weight: bolder;
+  color: rgb(84, 157, 211);
+}
