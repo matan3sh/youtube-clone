@@ -1,0 +1,19 @@
+// Setup
+@import 'setup/variables';
+
+// Basics
+@import 'basic/base';
+
+// Components
+@import 'components/pages/home';
+
+// Layout
+@import 'components/layout/header';
+@import 'components/layout/sidebar';
+
+// Modal
+@import 'components/modal/aboutmodal';
+
+// App
+@import 'components/app/recommendedVideos';
+@import 'components/app/searchVideos';
